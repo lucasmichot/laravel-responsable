@@ -1,0 +1,48 @@
+{
+    "name": "lucasmichot/laravel-responsable",
+    "description": "Return anything and control the way the Repsonse.",
+    "keywords": [
+        "api",
+        "collection",
+        "database",
+        "json",
+        "laravel",
+        "model",
+        "response",
+        "routing"
+    ],
+    "license": "MIT",
+    "homepage": "http://lucasmichot.com",
+    "support": {
+        "issues": "https://github.com/lucasmichot/laravel-responsable/issues",
+        "source": "https://github.com/lucasmichot/laravel-responsable"
+    },
+    "authors": [
+        {
+            "name": "Lucas Michot",
+            "email": "lucas@semalead.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/http": "^5.2",
+        "illuminate/routing": "^5.2"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^1.11",
+        "mockery/mockery": "^0.9.0",
+        "phpunit/phpunit": "^4.0 || ^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lucasmichot\\LaravelResponsable\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lucasmichot\\LaravelResponsable\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
